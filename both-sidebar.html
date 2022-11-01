@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Twitter Bootstrap Tutorial - A responsive layout tutorial</title>
+</head>
+<style>
+    .ml{
+        margin-left: 6px;
+    }
+    .mr{
+        margin-right: 10px;
+    }
+    .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+        color: #1abc9c; 
+        text-decoration: none;
+        background-color: #2c3e50; 
+        box-shadow: 0px 0px 0px 0px;}
+
+    .navbar .nav>li>a:hover {
+        background-color: transparent;
+        color: #1abc9c; 
+        text-decoration: none;
+    }
+    .navbar .nav>li>a {
+        /* float: none; */
+        padding: 10px 24px 10px;
+        color: #fff;
+        text-decoration: none;
+        /* text-shadow: 0 1px 0 #ffffff; */
+    }
+</style>
+<body>
+    <div class='container' style="width: 1344px;">
+        <div class='navbar'>
+            <div class='navbar-inner nav-collapse' style="display:flex; height: 82px; background: #2c3e50;">
+                <li style="margin-top: 12px;">
+                    <a class="navbar-brand" href="#page-top" ><img src="https://www.coai.com/themes/bootstrap/images/logo.png" alt=""></a>
+                </li>
+            <ul class="nav" style=" margin-left: 20rem; margin-top: 22px; font-size: 20px;">
+                    <li class="active"><a href="#">Home +</a></li>
+                    <li><a href="#">Page One +</a></li>
+                    <li><a href="#">Page Two +</a></li>
+                    <li><a href="#">Page Three +</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id='content' class='row-fluid'>
+            <div class='span2 sidebar'>
+                <h3 class="ml">Left Sidebar</h3>
+                <ul class="ml nav nav-tabs nav-stacked">
+                    <li><a href='#'>Left home</a></li>
+                    <li><a href='#'>left contact</a></li>
+                    <li><a href='#'>left About</a></li>
+                    <li><a href='#'>left project</a></li>
+                    <li><a href='#'>left home</a></li>
+                </ul>
+            </div>
+            <div class='span8 main'>
+                <h2>Main Content Section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+                    facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                    delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend
+                    option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+                <p>
+
+                <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+                    Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                    processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera
+                    gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula
+                    quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                    sollemnes in futurum.</p>
+            </div>
+            <div class='span2 sidebar'>
+                <h3 class="mr">Right Sidebar</h3>
+                <ul class="mr nav nav-tabs nav-stacked">
+                    <li><a href='#'>right info</a></li>
+                    <li><a href='#'>right about</a></li>
+                    <li><a href='#'>right contact</a></li>
+                    <li><a href='#'>right project</a></li>
+                    <li><a href='#'>right home</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
